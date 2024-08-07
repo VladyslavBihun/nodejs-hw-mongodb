@@ -12,7 +12,6 @@ const contactsSchema = new Schema(
     },
     email: {
       type: String,
-      match: [/\S+@\S+\.\S+/, 'Please fill a valid email address'],
       required: false,
     },
     isFavorite: {
