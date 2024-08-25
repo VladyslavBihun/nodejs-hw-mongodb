@@ -109,7 +109,7 @@ export const sendResetToken = async (email) => {
       email,
     },
     env('JWT_SECRET'),
-    { expiresIn: '60m' },
+    { expiresIn: '5m' },
   );
 
   const resetPasswordPath = path.join(
