@@ -207,11 +207,6 @@
                       "personal"
                     ]
                   },
-                  "userId": {
-                    "description": "Contact's user id",
-                    "type": "string",
-                    "example": "66cb4b87753df3d7c2651958"
-                  },
                   "photo": {
                     "description": "Link to contact's photo",
                     "type": "string",
@@ -380,11 +375,6 @@
                       "home",
                       "personal"
                     ]
-                  },
-                  "userId": {
-                    "description": "Contact's user id",
-                    "type": "string",
-                    "example": "66cb4b87753df3d7c2651958"
                   },
                   "photo": {
                     "description": "Link to contact's photo",
